@@ -1,5 +1,0 @@
-local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local window = kavoUi.CreateLib("Dawidka Hub","BloodTheme")
-
-== tabs
-local Tab = Window:NewTab("Murder Mystery 2")
