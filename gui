@@ -1,4 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("Dawidka Hub", "Sentinel")
+Window = script.Parent.Frame
+Window.Draggable = true
+Window.Active = true
+Window.Selectable = true
+
 local Tab = Window:NewTab("Murder Mystery 2")
