@@ -1,7 +1,7 @@
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local window = kavoUi.CreateLib("Dawidka Hub","Serpent")
 
-== tabs
+--- tabs
 local Tab1 = window:NewTab("Other")
 local Tab1Section = Tab1:NewSection("Other Scripts")
 
@@ -11,7 +11,7 @@ local Tab2Section = Tab2:NewSection("MM2 Scripts")
 local Tab3 = window:NewTab("Info")
 local Tab3Section = Tab3:NewSection("Made by Dawidka")
 
-== Buttons
+--- Buttons
 
 Tab1Section:NewButton("Infinity Yield","Admin Commands",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
