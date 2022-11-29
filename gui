@@ -8,11 +8,11 @@ local Tab1Section = Tab1:NewSection("Other Scripts")
 local Tab2 = window:NewTab("Murder Mystery")
 local Tab2Section = Tab2:NewSection("MM2 Scripts")
 
-local Tab4 = window:NewTab("Pet Simulator X")
-local Tab4Section = Tab4:NewSection("PSX Scripts")
+local Tab3 = window:NewTab("Pet Simulator X")
+local Tab3Section = Tab3:NewSection("PSX Scripts")
 
-local Tab3 = window:NewTab("Info")
-local Tab3Section = Tab3:NewSection("Made by Dawidka")
+local Tab4 = window:NewTab("Info")
+local Tab4Section = Tab4:NewSection("Made by Dawidka")
 
 
 --- Buttons
@@ -34,9 +34,11 @@ Tab2Section:NewButton("MM2 Esp","Shows everyone's position and their roles in Mu
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))()
 end)
 
-Tab4Section:NewButton("PSX Script Menu","Script menu with Pet Simulator scripts [use jmes gui on phone]",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))()
+Tab3Section:NewButton("Furk Script Menu","Script menu with Pet Simulator scripts [use jmes hub on phone]",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))() 
+end)
     
-    Tab4Section:NewButton("Project WD","Project WD menu for Pet Simulator X",function()
+    Tab3Section:NewButton("Project WD","Project WD menu for Pet Simulator X",function()
         getgenv().key = "projectWBIsAwesomemrcrapcrappypattt"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+end)
