@@ -11,7 +11,7 @@ local Tab2Section = Tab2:NewSection("MM2 Scripts")
 local Tab4 = window:NewTab("Pet Simulator X")
 local Tab4Section = Tab4:NewSection("PSX Scripts")
 
-local Tab5 =window:NewTab("Mining Simulator 2")
+local Tab5 = window:NewTab("Mining Simulator 2")
 local Tab5Section = Tab5:NewSection("Mining Simulator 2 Scripts")
 
 local Tab3 = window:NewTab("Info")
