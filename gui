@@ -30,7 +30,6 @@ Tab1Section:NewButton("KaiZen Game Hub","Opens KaiZen Game Hub",function()
 
 Tab2Section:NewButton("HOHO Hub","Opens HOHO Hub script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-
     end)
 
 Tab2Section:NewButton("MM2 Esp","Shows everyone's position and their roles in Murder Mystery2",function()
@@ -39,16 +38,15 @@ end)
 
 Tab4Section:NewButton("PSX Script Menu","Script menu with Pet Simulator scripts [use jmes gui on phone]",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))()
+end)
 
-    end)
     Tab4Section:NewButton("Project WD","Project WD menu for Pet Simulator X",function()
         getgenv().key = "projectWBIsAwesomemrcrapcrappypattt"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
 end)
 
-Tab5Section:NewButton("Project WD","Project WD menu for Mining Simulator 2", function()
+Tab5Section:NewButton("Project WD","Project WD menu for Mining Simulator 2",function()
     getgenv().key = "projectWBIsAwesomemrcrapcrappypattt"
-    end)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
 end)
 
