@@ -49,7 +49,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-
 end)
 
 Tab5Section:NewButton("Project WD","Project WD menu for Mining Simulator 2",function()
-    getgenv().key = "projectWBIsAwesomemrcrapcrappypattt"
+    getgenv().key = "PROJECTWD-APZRFNhR28HxqNOEea"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
 end)
 
